@@ -1,3 +1,9 @@
 {
-    "notes":[]
+  "notes": [
+    {
+      "title": "Note test",
+      "text": "Hello world",
+      "id": "3f19f51a-4779-46f8-af57-de429001eb3f"
+    }
+  ]
 }
