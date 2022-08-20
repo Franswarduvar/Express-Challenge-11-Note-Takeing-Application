@@ -9,6 +9,13 @@ fs.writeFileSync(path.join(__dirname, '../db/db.json'),JSON.stringify({
 return body 
 }
 
+function deleteNotes (notes){
+notes.pull(body);
+fs.writeFileSync(path.join(__dirname, '../db/db.json'),JSON.stringify({
+    notes:notes
+},null,2));
+}
+
 module.exports = {
     createNote
 }

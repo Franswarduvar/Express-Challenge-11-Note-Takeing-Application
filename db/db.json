@@ -4,6 +4,11 @@
       "title": "Note test",
       "text": "Hello world",
       "id": "3f19f51a-4779-46f8-af57-de429001eb3f"
+    },
+    {
+      "title": "Test 2",
+      "text": "Hello world\n",
+      "id": "2382a3b4-cb62-4d38-b196-45e39db829a4"
     }
   ]
 }
